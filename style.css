@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.temp-calculator{
+    width: 500px;
+    height: 350px;
+    border-radius: 5px;
+    margin: 50px auto;
+    background: #eee;
+}
+
+.title{
+    padding: 10px 0px;
+    text-align: center;
+    background: rgb(143, 235, 204);
+    font-size: 28px;
+    font-weight: 800;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.temp-calculator-inputs{
+    padding: 10px 5px;
+}
+
+.calculator-value{
+    font-size: 20px;
+    padding: 5px 10px;
+}
+
+.calculator-value input{
+    padding-left: 5px;
+    outline: none;
+    border: 2px solid black;
+    font-size: 22px;
+}
+
+.calculator-input{
+    padding: 8px 5px;
+    display: flex;
+}
+
+.calculator-input label{
+    padding: 5px 10px;
+    font-size: 18px;
+}
+
+button{
+    border: none;
+    color: white;
+    background: rgb(163, 223, 25);
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 5px 75px;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+.result-area{
+    font-size: 23px;
+    border: 2px solid green;
+    padding: 15px 10px;
+}
+.result-area input{
+    padding-left: 5px;
+    outline: none;
+    border: none;
+    font-size: 25px;
+}
